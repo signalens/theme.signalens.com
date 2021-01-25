@@ -298,7 +298,7 @@ navbar:
     - { key: "Comparison", link: "/comparison/"}
     - { key: "Installation", link: "https://docs.qiling.io/en/latest/install"}
     - { key: "Documentation", link: "https://docs.qiling.io"}
-    - { key: "Donation", link: "/donation/", icon: "iconfont icon-link-fill" }
+    - { key: "Donation", link: "/donation/"}
     #- { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     #- { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     #- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
