@@ -18,7 +18,7 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /img/favicon.png
+favicon: https://github.com/qilingframework/qiling/blob/master/docs/qiling_small.png?raw=true
 
 # 用于苹果设备的图标
 # Icon for Apple touch
