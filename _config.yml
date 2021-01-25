@@ -478,7 +478,7 @@ index:
 #---------------------------
 post:
   banner_img: https://github.com/qilingframework/qiling/blob/dev/docs/bg_page.png?raw=true
-  banner_img_height: 70
+  banner_img_height: 60
   banner_mask_alpha: 0.8
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
@@ -545,7 +545,7 @@ post:
   # 文章右侧目录
   # Table of contents (TOC)
   toc:
-    enable: true
+    enable: false
     # 目录会选择这些节点作为标题
     # TOC will select these nodes as headings
     headingSelector: "h1,h2,h3,h4,h5,h6"
@@ -844,31 +844,32 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://github.com/qilingframework/qiling/blob/dev/docs/bg_page.png?raw=true
   banner_img_height: 60
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0.8
   subtitle:
   # 友链的成员项
   # Member item of page
   items:
     - {
-      title: "Unicorn",
-      intro: "Unicorn Engine",
-      link: "https://github.com/unicorn-engine/unicorn",
-      image: "https://github.com/unicorn-engine/unicorn/blob/master/docs/unicorn-logo.png?raw=true"
+      title: "Twitter",
+      intro: "Official Social Media",
+      link: "https://twitter.com/qiling_io",
+      image: "https://github.com/qilingframework/theme.qiling.io/blob/master/source/img/twitter_circle-512.png?raw=true"
     }
     - {
-      title: "Capstone",
-      intro: "Capstone Engine",
-      link: "https://github.com/aquynh/capstone",
-      image: "https://github.com/aquynh/capstone/blob/master/docs/capstone-logo.png?raw=true"
+      title: "Telegram",
+      intro: "Discussion Group",
+      link: "https://t.me/qilingframework",
+      image: "https://github.com/qilingframework/theme.qiling.io/blob/master/source/img/1024px-Telegram_logo.svg.png?raw=true"
     }
     - {
-      title: "Keystone",
-      intro: "Keystone Engine",
-      link: "https://github.com/keystone-engine/keystone",
-      image: "https://github.com/keystone-engine/keystone-engine.github.io/blob/master/images/keystone.png?raw=true"
-    }
+      title: "JD Security",
+      intro: "Technology Partner",
+      link: "http://security.jd.com/",
+      image: "https://github.com/qilingframework/theme.qiling.io/blob/master/source/img/jdlogo.png?raw=true"
+    }    
+
 
 
 #---------------------------
