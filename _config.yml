@@ -30,7 +30,7 @@ title_join_string: " - "
 
 # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
 # Force all links to be HTTPS (applicable to HTTP mixed error)
-force_https: false
+force_https: true
 
 # 代码块的增强配置
 # Enhancements to code blocks
@@ -293,17 +293,17 @@ navbar:
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
-    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
+    - { key: "Github", link: "https://github.com/qilingframework/qiling", icon: "iconfont icon-home-fill" }
+    #- { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    #- { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     #- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    #- { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
 search:
-  enable: true
+  enable: false
   # 搜索索引文件的路径，可以是相对路径或外站的绝对路径
   # Path for search index file, it can be a relative path or an absolute path
   path: /local-search.xml
@@ -550,8 +550,8 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    enable: false
+    content: ''
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post
@@ -748,7 +748,7 @@ archive:
 # Category Page
 #---------------------------
 category:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
@@ -773,7 +773,7 @@ category:
 # Tag Page
 #---------------------------
 tag:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
@@ -791,7 +791,7 @@ tag:
 # About Page
 #---------------------------
 about:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
