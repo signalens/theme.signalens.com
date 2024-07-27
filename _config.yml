@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: https://github.com/qilingframework/qiling/blob/master/docs/qiling_small.png?raw=true
+favicon: https://github.com/qilingframework/theme.qiling.io/blob/master/images/iconsmall.png?raw=true
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: https://github.com/qilingframework/qiling/blob/master/docs/qiling_small.png?raw=true
+apple_touch_icon: https://github.com/qilingframework/theme.qiling.io/blob/master/images/iconsmall.png?raw=true
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -293,18 +293,18 @@ navbar:
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
-    - { key: "Support", link: "https://www.xandora.io/opensource"}
-    - { key: "Opensource", link: "https://github.com/qilingframework/qiling", icon: "iconfont icon-github-fill" }
+    - { key: "Discord", link: "https://discord.gg/W2KZK8s7XG"}
+    - { key: "Opensource", link: "https://github.com/signalens", icon: "iconfont icon-github-fill" }
     - { key: "Showcase", link: "https://github.com/qilingframework/qiling/issues/134"}
     - { key: "Comparison", link: "/comparison/"}
-    - { key: "Installation", link: "https://docs.qiling.io/en/latest/install"}
+    #- { key: "Installation", link: "https://docs.qiling.io/en/latest/install"}
     - { key: "Documentation", link: "https://docs.qiling.io"} 
     #- { key: "SWAG", link: "/swag/"}
     #- { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     #- { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     #- { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     #- { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/"}
+    #- { key: "links", link: "/links/"}
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -366,7 +366,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="https://qiling.io" target="_blank" rel="nofollow noopener"><span>Qiling Framework</span></a>
+    <a href="https://signalens.com" target="_blank" rel="nofollow noopener"><span>Signalens Ltd.</span></a>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -406,7 +406,7 @@ index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   #banner_img: /img/default.png
-  banner_img: https://github.com/qilingframework/qiling/blob/dev/docs/bg_page.png?raw=true
+  banner_img: https://github.com/qilingframework/theme.qiling.io/blob/master/images/bg.png?raw=true
  
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -425,7 +425,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "A True Instrumentable Binary Emulation FRAMEWORK"
+    text: "A True Software Defined Radio Solution"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -478,7 +478,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://github.com/qilingframework/qiling/blob/dev/docs/bg_page.png?raw=true
+  banner_img: https://github.com/qilingframework/theme.qiling.io/blob/master/images/bg.png?raw=true
   banner_img_height: 40
   banner_mask_alpha: 0.8
 
