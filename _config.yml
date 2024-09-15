@@ -298,7 +298,6 @@ navbar:
     - { key: "Opensource", link: "https://github.com/signalens", icon: "iconfont icon-github-fill" }
     - { key: "Showcase", link: "https://www.youtube.com/@signalens"}
     - { key: "Comparison", link: "/compare/"}
-    - { key: "SignalSDR Pi", link: "/signalsdrpi/"}
     - { key: "SignalSDR Pro", link: "/signalsdrpro/"}
     #- { key: "Installation", link: "https://docs.qiling.io/en/latest/install"}
     # - { key: "Documentation", link: "https://docs.qiling.io"} 
