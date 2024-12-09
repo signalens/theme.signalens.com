@@ -294,7 +294,7 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "SignalSDR Pro", link: "https://github.com/signalens/signalsdrpro/"}
-    - { key: "Buy", link: "https://www.crowdsupply.com/"}
+    - { key: "Buy", link: "https://www.crowdsupply.com/signalens/signalsdr-pro"}
     - { key: "Comparison", link: "/compare/"}
     - { key: "X(Twitter)", link: "https://x.com/signalensradio"}
     - { key: "Discord", link: "https://discord.gg/W2KZK8s7XG"}
